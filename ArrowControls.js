@@ -1,13 +1,12 @@
 /*
 Functions in this file:
-
 keys(e)           Keyboard controls
 prevStep()        Back one time step
 nextStep()        Forward one time step
 prevProduct()     Moves to the product on the left in the same timestep
 nextProduct()     Moves to the product on the right in the same timestep
-
 */
+
 function keys(e) {
 //Skip if on feedback form
 if(floatid == 4){
