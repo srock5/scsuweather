@@ -1,1 +1,1 @@
-# scsuweather
+# SCSUWeather
