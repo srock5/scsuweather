@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <link href="style.css" rel="stylesheet" type="text/css" media="all"/>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans"/>
+  <title>SCSU Weather</title>
+ </head>
+ <body>
+   <div class="logo">
+     <a href="index.html">
+     <img src="SCSUwxLogo.png">
+   </a>
+   </div>
+   <div class="titlebar">
+      <table>
+        <ul>
+          <li><div id="sfc" class="dropdown">
+            <button class="dropbtn">Surface Maps</button>
+            <div class='dropdown-content' id="sfcCont">
+              <a href='#'>Fluff</a>
+              <a href='#'>This</a>
+              <a href='#'>Shit</a>
+            </div>
+          </div></li>
+          <li><div id="pl" class="dropdown">
+            <button class='dropbtn'>Pressure Levels</button>
+            <div class="dropdown-content" id="plCont">
+              <a href="#">I'm</a>
+              <a href="#">Out</a>
+            </div>
+          </div></li>
+          <li><div id="isen" class="dropdown">
+            <button class='dropbtn'>Isentropic</button>
+            <div class="dropdown-content" id="isenCont">
+              <a href="#">Please</a>
+            </div>
+          </div></li>
+          <li><div id="pv" class="dropdown">
+            <button class='dropbtn'>PV Surfaces</button>
+            <div class="dropdown-content" id="pvCont">
+              <a href="#">Please</a>
+            </div>
+          </div></li>
+        </ul>
+    </table>
+   </div>
+
+   <div class="sidebar">
+     <p>Side Bar</p>
+
+   <ul>
+     <li><div class="btn-group">
+       <button class="button"><a href='#'>-168</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-144</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-120</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-96</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-72</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-48</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-24</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>0</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>24</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>48</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>72</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>96</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>120</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>144</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>168</a></button>
+     </div></li>
+   </ul>
+
+
+
+   <ul>
+     <li><div class="btn-group">
+       <button class="button"><a href='#'>-168</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-144</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-120</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-96</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-72</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-48</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-24</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>0</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>24</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>48</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>72</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>96</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>120</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>144</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>168</a></button>
+     </div></li>
+   </ul>
+
+
+
+
+
+   <ul>
+     <li><div class="btn-group">
+       <button class="button"><a href='#'>-168</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-144</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-120</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-96</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-72</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-48</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-24</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>0</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>24</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>48</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>72</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>96</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>120</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>144</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>168</a></button>
+     </div></li>
+   </ul>
+
+   <ul>
+     <li><div class="btn-group">
+       <button class="button"><a href='#'>-168</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-144</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-120</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-96</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-72</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-48</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-24</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>0</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>24</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>48</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>72</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>96</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>120</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>144</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>168</a></button>
+     </div></li>
+   </ul>
+
+
+   <ul>
+     <li><div class="btn-group">
+       <button class="button"><a href='#'>-168</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-144</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-120</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-96</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-72</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-48</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>-24</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>0</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>24</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>48</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>72</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>96</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>120</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>144</a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'></a></button>
+       <button class="button"><a href='#'>168</a></button>
+     </div></li>
+   </ul>
+
+
+
+
+
+   </div>
+
+   <div class="main">
+     <!-- Too many Hallo World lines -->
+
+
+   </div>
+   <!--<ul>
+      <li><a href="index.html">Surface Maps</a></li>
+      <li><a href="index.html">Pressure Levels</a></li>
+      <li><a href="index.html">Isentropic Levels</a></li>
+      <li><a href="index.html">PV Surfaces</a></li>
+    </ul>-->
+
+ </body>
+ </html>

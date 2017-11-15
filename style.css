@@ -1,0 +1,204 @@
+* {
+  /*border: 1px solid black;*/
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+
+/*********** Logo ***********/
+.logo {
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1000;
+  width: 300px;
+  height: 50px;
+  background-color: #AF0000;
+}
+
+.logo img {
+  position: fixed;
+  top: 0;
+  height:50px;
+  width: 300px;
+}
+
+/*********** Titlebar ***********/
+.titlebar {
+  top: 0;
+  left: 300px;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #AF0000;
+  box-shadow: 0px 5px 5px #737373;
+  z-index: 1000;
+  /*overflow: hidden;*/
+}
+
+.titlebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0px 5px;
+}
+
+.titlebar li {
+  vertical-align: middle;
+  /*line-height: 50px;*/
+  display: inline-block;
+  border-right-width: 1px;
+  border-right-color: black;
+  border-right-style: solid;
+  border-left-width: 1px;
+  border-left-color: black;
+  border-left-style: solid;
+}
+
+.titlebar tr {
+  vertical-align: middle;
+  line-height: 50%;
+  padding: 0% 5%;
+}
+
+.titlebar button {
+  width: 200px;
+  vertical-align: middle;
+  line-height: 50px;
+  padding: 0px 20px;
+  display: inline-block;
+  border: none;
+  font-size: 18px;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 500;
+  background-color: #C9;
+}
+
+.titlebar button:hover {
+  text-decoration: underline;
+  background-color: #A6A6A6;
+  -webkit-transition-duration: 0.2s; /* Safari. You're welcome Morgan. */
+  transition-duration: 0.2s;
+  /* offset-x, offset-y, blur-radius, spread-radius, color */
+  box-shadow: 0px 5px 5px #737373
+}
+/*
+.titlebar a {
+  text-decoration: none;
+  color: white;
+  text-shadow: black 2px 2px;
+  font-size: 100%;
+}
+
+.titlebar a:hover {
+  text-decoration: underline;
+}
+*/
+/*************** Dropdowns *********************/
+
+.dropdown-content{
+  display: none;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  overflow: visible;
+  float: inline-start;
+}
+
+.dropdown-content a {
+  display: block;
+  text-decoration: none;
+}
+
+#sfc.dropdown:hover #sfcCont.dropdown-content {
+  display: block;
+  z-index: 1000;
+}
+
+#pl.dropdown:hover #plCont.dropdown-content {
+  display: block;
+  z-index: 1000;
+}
+
+#isen.dropdown:hover #isenCont.dropdown-content {
+  display: block;
+  z-index: 1001;
+}
+
+/*********** Sidebar ***********/
+.sidebar {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 300px;
+  background-color: #707070;
+  color: pink;
+}
+
+
+
+.sidebar ul {
+  float: left;
+  list-style-type: none;
+  padding-left: 16px;
+}
+
+
+
+.btn-group {
+  right: 0;
+}
+
+.btn-group .button {
+   background-color: rgb(102,102,153);
+   border-radius: 8px;
+   border: 1px solid black;
+   padding: 2px;
+   color: white;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   cursor: pointer;
+   display: block;
+   width: 40px;
+}
+
+.btn-group .button:not(:last-child) {
+   border-bottom: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+   background-color: rgb(76,76,180);
+   padding: 8px;
+}
+
+.btn-group .button:active {
+  background-color: rgb(0,128,128);
+  padding: 8px;
+}
+
+
+.btn-group .button a {
+  text-decoration: none;
+  color:inherit;
+}
+
+
+
+
+/*********** Main ***********/
+.main {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 85%;
+}
+.main h1 {
+  font-size:50%;
+}
+
+/* !!!! Cabin condensed for side bar, cabin for most things, lato for text !!! */
