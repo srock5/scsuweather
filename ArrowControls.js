@@ -1,4 +1,3 @@
-<!--
 /*
 Functions in this file:
 
@@ -58,30 +57,3 @@ else if{
 animationToggle();
 return !(e.keyCode == 32);
 }
-/*//M = model
-else if(e.keyCode == 77 || e.keyCode == 109){
-if(model == 'gfs'){
-changeModel('nam');
-}
-else if(model == 'nam'){
-changeModel('nam3');
-}
-else if(model == 'nam3'){
-changeModel('gfs');
-}
-}
-// X = feedback test
-else if(e.keyCode == 88 || e.keyCode == 120){
-openDprog();
-//document.getElementById('leftmenu-hours').disabled = true;
-//document.getElementById('hourlist').innerHTML = "Test";
-/*
-if(floatid != 4){
-menu_feedback();
-}
-else{
-if(curwidth >= 700){close_popup();}else{close_float();}
-}*/
-}
-}
--->
